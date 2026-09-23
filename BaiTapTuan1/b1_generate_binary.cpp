@@ -26,6 +26,7 @@ void next_binary(){
 
 int main(){
     cin >> n;
+    if(n < 1 || n > 100) return 0;
     is_last = false;
     init();
     while(!is_last){

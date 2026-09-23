@@ -35,6 +35,7 @@ void next_combination(){
 
 int main(){
     cin >> n >> k;
+    if(k < 1 || k > n || n > 99) return 0;
 
     init();
     

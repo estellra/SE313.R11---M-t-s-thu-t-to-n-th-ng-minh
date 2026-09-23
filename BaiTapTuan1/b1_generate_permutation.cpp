@@ -47,6 +47,7 @@ void next_arrangement(){
 
 int main() {
     cin >> n >> m;
+    if(m < 1 || m > n || n > 99) return 0;
     init();
     is_last = false;
 

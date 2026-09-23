@@ -1,8 +1,3 @@
-n=8
-h=[]
-a=[]
-b=[]
-c=[]
 so_nghiem=0
 
 def in_ket_qua():

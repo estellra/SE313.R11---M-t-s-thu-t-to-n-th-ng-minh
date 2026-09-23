@@ -23,6 +23,9 @@ n = int(input("Nhap so luong cong viec n: "))
 print("Nhap gio bat dau va ket thuc cua tung cong viec (start end):")
 for i in range(1, n+1):
     start, end=map(int, input(f"Cong viec {i}: ").split())
+    while start>end:
+        print("Gio bat dau phai <= gio ket thuc, nhap lai.")
+        start, end=map(int, input(f"Cong viec {i}: ").split())
     danh_sach.append((i, start, end))
 
 tham_lam()
