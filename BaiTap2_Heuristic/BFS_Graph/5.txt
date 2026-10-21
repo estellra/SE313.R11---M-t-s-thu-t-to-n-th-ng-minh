@@ -1,0 +1,17 @@
+S 8
+A 5
+B 6
+C 3
+D 4
+E 2
+G 0
+
+S A 2
+S B 3
+A C 4
+A D 2
+B E 3
+D G 5
+
+S
+G

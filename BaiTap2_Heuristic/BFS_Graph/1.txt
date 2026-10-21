@@ -1,0 +1,18 @@
+A 7
+B 5
+C 3
+D 6
+E 2
+F 4
+G 0
+
+A B 1
+A C 4
+B D 2
+B E 5
+C F 1
+E G 3
+F G 2
+
+A
+G
