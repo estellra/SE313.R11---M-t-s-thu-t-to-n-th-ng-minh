@@ -19,7 +19,7 @@ def get_neighbors(state, n):
     return neighbors
 
 
-def main(heights, start_state, init_temperature=2.5, cooling_rate=0.99, min_temperature=0.01, max_steps=2000):
+def main(heights, start_state, init_temperature=1000, cooling_rate=0.999, min_temperature=0.01, max_steps=10000):
     current_state = start_state
     current_score = evaluate(current_state, heights)
 
